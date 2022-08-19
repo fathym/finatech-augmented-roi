@@ -2,13 +2,9 @@ name: fathym/finatech-augmented-roi
 
 on:
   push:
-    branches: 
-      - main      
-      - integration    
+    branches: [main]
   pull_request:
-    branches:
-      - main      
-      - integration       
+    branches: [main]
 
 permissions: write-all
 
